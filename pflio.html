@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO WEBSITE DESIGN</title>
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- css -->
+    <link rel="stylesheet" href="pflio.css">
+</head>
+<body>
+    <header class="header">
+         <a href="#" class="logo">Portfolio</a>
+         <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Home section design -->
+   <section class="home" id="home">
+     <div class="home-content">
+        <h3>Hello! It's Me</h3>
+        <h1>Devendra Singh</h1>
+        <h3>And I'm  <span class="multiple-text"></span></h3>
+        <p>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/devendra-singh-9a8396228/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+            <a href="https://www.instagram.com/mee_devendra22/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://twitter.com/Me_DEVENDRA_S"  target="_blank" ><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <a href="resume.html" target="_blank" class="btn">View My CV</a>
+     </div>
+     <div class="home-img">
+        <img src="image3.jpg" alt="">
+     </div>
+   </section>
+
+   <!-- about section design -->
+   <section class="about" id="about">
+    <div class="about-img">
+        <img src="myimage5.ico" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>I am a Frontend Developer and DSA enthusiast.</p>
+        <p>I am persuing B.Tech. in Information Technology from National Institute Of Technology, Raipur.<br>
+            As a frontend developer, I am passionate about creating beautiful and functional user interfaces that provide the best possible user experience.
+           And also I love to solve DSA problems and sometimes CP problems.
+           <br>Since my childhood ,I am fond of Tech things and love to learn new Technologies.
+        </p>
+        
+    </div>
+   </section>
+
+   <!-- services-section -->
+    <section class="Skills" id="Skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="Skills-container">
+            <div class="Skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web development : frontend</h3>
+                <p class="webicon"><span><i class='bx bxs-file-html' ></i></span><span><i class='bx bxs-file-css' ></i></span><span><i class='bx bxl-javascript' ></i></span> <span><i class='bx bxl-react' ></i></span></p>
+                    <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+            <div class="Skills-box">   
+                    <i class='bx bxs-data' ></i>
+                <h3>Data Structure & Algorithms</h3>
+                <p >Solved  DSA problems on leetcode, gfg  plateforms</p>
+                    <!-- <a href="#" class="btn">Read More</a> -->
+              &<h3>Programming language</h3>
+                <span><i class='bx bxl-c-plus-plus' ></i></span>
+                
+            </div>
+            <div class="Skills-box">       
+                    <i class='bx bx-task'></i>
+                <h3>Problem Solving</h3>
+                <p>Love to solve real-life problems through creative thinking and implementing it in a unique way. And intersted to working of new Technology ideas and have a great interest in entrepreneurship.</p>
+                    <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Photo-Gallery</h4>
+                    <p>It is a web-app which is work as a search tool for a certain number of random photos.<br> This  project is made by using HTML , CSS , JAVASCRIPT   and API implementation of a famous picture website unsplash.com .</p>
+                    <a href="https://devendrasingh8909.github.io/Photo-Gallery/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+              </div>
+            <div class="portfolio-box">
+                <img src="image1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Portfolio-Website</h4>
+                    <p>This is my own portfolio website made by myself using HTML , CSS , JAVASCRIPT , SCROLL-REVEAL ,TYPED.JS etc.</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form  action="https://formspree.io/f/mlekpeaq" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Adress">
+            </div>
+            <div class="input-box">
+                <input type="number"  name="number" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Subject of contact">
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Massege"></textarea>
+            <button type="submit"  class="btn">Send Message</button>
+
+        </form>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy ; 2023 by Devendra Singh | All Right Reserved.</p>
+        </div>
+        <div class="footericontop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+     <!-- normal js -->
+    <script src="pflio.js"></script>
+    
+</body>
+</html>
