@@ -169,8 +169,8 @@
 
  }
  .about-img img{
-      width:400px;
-      height: 550px;
+      width:400 px;
+      height: 550 px;
       padding-right: 0rem;
       border: 3px solid var(--bg--color);
       border-radius: 100px;
