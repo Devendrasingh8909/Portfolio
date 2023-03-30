@@ -169,11 +169,12 @@
 
  }
  .about-img img{
-      width:auto;
+      width:400px;
+      height: 550px;
       padding-right: 0rem;
-      border: 3px solid black;
+      border: 3px solid var(--bg--color);
       border-radius: 100px;
-      box-shadow: 0 0 2rem black;
+      box-shadow: 0 0 1rem var(--main--color);
 
  }
  .heading{
